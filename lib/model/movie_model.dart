@@ -7,6 +7,7 @@ class MovieModel {
   double rating;
   String synopsis;
   String imgUrl;
+  String movieUrl;
 
   MovieModel({
     required this.title,
@@ -17,5 +18,6 @@ class MovieModel {
     required this.rating,
     required this.synopsis,
     required this.imgUrl,
+    required this.movieUrl,
   });
 }
